@@ -18,23 +18,3 @@
 1. 安装 Tampermonkey 或 Violentmonkey。
 2. 直接点击[安装脚本](https://raw.githubusercontent.com/RinnMoe/CHUTYXKhelper/master/TYXKhelper-request-keepalive-hedge.user.js)。
 3. 扩展会识别 `.user.js` 文件并打开安装确认页，点击“安装”即可。
-
-不需要复制代码，也不需要手动新建脚本。
-
-项目地址：[RinnMoe/CHUTYXKhelper](https://github.com/RinnMoe/CHUTYXKhelper)。可以使用下面的 Raw 文件地址安装：
-
-```text
-https://raw.githubusercontent.com/RinnMoe/CHUTYXKhelper/master/TYXKhelper-request-keepalive-hedge.user.js
-```
-
-当前未在脚本元数据中添加 `@updateURL`/`@downloadURL`；如需明确配置自动更新地址，后续可以继续补充。
-
-## 本地检查
-
-本仓库不需要构建步骤。提交前可以运行 Node.js 语法检查：
-
-```powershell
-node --check .\TYXKhelper-request-keepalive-hedge.user.js
-```
-
-脚本依赖目标站点当前的 Webpack JSONP 运行时以及 `ba0d` 模块名；语法检查通过不等于目标站点运行时一定兼容。
